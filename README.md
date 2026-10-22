@@ -28,6 +28,8 @@ Cache location: `--` isn't a flag for this; set `$MEMOIZE_DIR`, else
 `$XDG_CACHE_HOME/memoize`, else `~/.cache/memoize`. Directories are
 created `0700`, entries `0600`.
 
+`--version` prints the version and exits.
+
 ## The stale-cache hazard, designed out
 
 Caching command output is only safe if staleness can never be silent.
