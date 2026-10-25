@@ -111,18 +111,7 @@ memo invalidate -- pytest -q
   `--inputs` to narrow tracking for big trees. Beyond 100,000 tracked
   files memoize declines to cache and runs uncached.
 
-## Pre-publish checklist
 
-Per the project charter, nothing ships publicly until the maintainer
-approves the publishing account/org and the license. Before
-first publication:
+## License
 
-1. **Secrets hygiene** — run a secrets scan over the repo and its history
-   (`gitleaks detect --source .` or `trufflehog git file://.`), resolve
-   every hit, and grep once more for obvious keys/tokens by hand.
-2. **History review** — read `git log` and the full diff end-to-end; no
-   credentials, private paths, or personal data may be committed.
-3. **License** — replace the TBD notice with the maintainer-approved
-   LICENSE file.
-
-License: TBD (maintainer approval pending).
+MIT — see [LICENSE](LICENSE).
