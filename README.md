@@ -115,3 +115,13 @@ memo invalidate -- pytest -q
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+## Pre-publish checklist
+
+- [x] Tests green (38/38, Nov 9, 2026)
+- [x] README + CHANGELOG + LICENSE (MIT) in place
+- [x] Bench-audit A1–A7 clean (Nov 9, 2026 sweep; this section was the last gap)
+- [ ] Prepublish-check (stdlib-only, no secret-like literals) — not yet run for this project
+- [ ] CI workflow (.github/workflows/tests.yml) — added at prepublish
+- [ ] Publication blocked: secret-pattern hits in git history (test fixture) — needs human review before any publication (Oct 25, 2026 publish attempt)
+- [ ] Sam's per-project publication approval (charter gate) — not yet published
