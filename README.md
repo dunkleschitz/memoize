@@ -121,7 +121,7 @@ MIT — see [LICENSE](LICENSE).
 - [x] Tests green (38/38, Nov 9, 2026)
 - [x] README + CHANGELOG + LICENSE (MIT) in place
 - [x] Bench-audit A1–A7 clean (Nov 9, 2026 sweep; this section was the last gap)
-- [ ] Prepublish-check (stdlib-only, no secret-like literals) — not yet run for this project
-- [ ] CI workflow (.github/workflows/tests.yml) — added at prepublish
-- [ ] Publication blocked: secret-pattern hits in git history (test fixture) — needs human review before any publication (Oct 25, 2026 publish attempt)
-- [ ] Sam's per-project publication approval (charter gate) — not yet published
+- [x] Prepublish-check (stdlib-only, no secret-like literals) — clean, Nov 9, 2026
+- [x] CI workflow (.github/workflows/tests.yml) — added at prepublish
+- [x] Oct 25 secret-pattern hits in git history CLEARED same evening (single fake `ghp_`-shaped test fixture, 29 chars, contains "fake"); history re-verified clean Nov 9, 2026 — stale blocker note removed
+- [x] Sam's per-project publication approval (charter gate) — Tier A batch approved Nov 9, 2026 22:29 MST
